@@ -1,4 +1,4 @@
-box: combient/java-mvn
+ox: combient/java-mvn
 build:
   steps:
     # Build Spring Boot Sample application
@@ -27,7 +27,7 @@ deploy-accs:
         application_type: java
         file: springbootdemo-0.0.1.zip
 restart-occs:
-  steps:
+ steps:
     # Manage Oracle Container Cloud Service container
     - peternagy/oracle-occs-container-util:
         occs_user: $OCCS_USER
